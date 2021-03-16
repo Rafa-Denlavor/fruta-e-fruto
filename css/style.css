@@ -1,0 +1,47 @@
+
+.titulo-fonte {
+    font-family: 'Pacifico', cursive;
+}
+
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    height: 500px;
+    object-position: 0 80%;
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    height: 500px;
+}
+
+.cor-branca {
+    color: #FFF;
+}
+
+.cor-especial {
+    color: #8b0000!important;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.botao-especial {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+.borda-especial {
+    border-color: #8b0000;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+#hover-especial:hover {
+    color: #8b0000;
+    text-decoration: underline;
+}
