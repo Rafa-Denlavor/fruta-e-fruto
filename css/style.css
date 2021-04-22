@@ -23,6 +23,16 @@
     color: #8b0000!important;
 }
 
+.fonte-estilo-especial {
+    text-transform: uppercase;
+}
+
+.background-imagem-especial {
+    background-image: url(https://images.pexels.com/photos/6605656/pexels-photo-6605656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-largura {
     max-width: 18rem;
 }
@@ -30,6 +40,9 @@
 .botao-especial {
     background-color: #8b0000;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .borda-especial {
@@ -44,4 +57,8 @@
 #hover-especial:hover {
     color: #8b0000;
     text-decoration: underline;
+}
+
+.background-especial {
+    background-color: #8b0000;
 }
