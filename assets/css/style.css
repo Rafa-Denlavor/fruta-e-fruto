@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .logo {
     width: 7rem;
@@ -20,11 +21,11 @@
 }
 
 .cor-branca {
-    color: #FFF;
+    color: var(--secondary-color);
 }
 
 .cor-especial {
-    color: #8b0000!important;
+    color: var(--primary-color)!important;
 }
 
 .fonte-estilo-especial {
@@ -42,15 +43,15 @@
 }
 
 .botao-especial {
-    background-color: #8b0000;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .borda-especial {
-    border-color: #8b0000;
+    border-color: var(--primary-color);
 }
 
 .card-posicao-imagem {
@@ -59,10 +60,15 @@
 }
 
 #hover-especial:hover {
-    color: #8b0000;
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
 .background-especial {
-    background-color: #8b0000;
+    background-color: var(--primary-color);
+}
+
+:root {
+    --primary-color:#8b0000;
+    --secondary-color: #fff;
 }

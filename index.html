@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
-
-    <link rel="stylesheet" href="css/style.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--ICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <title>fruta&fruto</title>
 </head>
 
@@ -21,16 +22,24 @@
   <header id="cabecalho">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top m-2 p-2" >
         <div class="container-fluid">
-          <a class="navbar-brand titulo-fonte cor-especial" href="#"><img src="imagens/logo.png" alt="" class="logo"></a>
+          <a class="navbar-brand titulo-fonte cor-especial" href="#"><img src="assets/img/logo.png" alt="" class="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <ul class="navbar-nav">
-              <li ><a class="nav-link active" id="hover-especial" aria-current="page" href="#cabecalho">Início</a></li>
-              <li><a class="nav-link" id="hover-especial" href="#receitas">Receitas</a></li>
-              <li><a class="nav-link" id="hover-especial" data-bs-toggle="modal" data-bs-target="#modalContato" href="#">Quem Somos</a></li>
-              <li><a class="nav-link" id="hover-especial" href="#footer">Contato</a></li>
+              <li>
+                <a class="nav-link active" id="hover-especial" aria-current="page" href="#cabecalho">Início</a>
+              </li>
+              <li>
+                <a class="nav-link" id="hover-especial" href="#receitas">Receitas</a>
+              </li>
+              <li>
+                <a class="nav-link" id="hover-especial" data-bs-toggle="modal" data-bs-target="#modalContato" href="#">Quem Somos</a>
+              </li>
+              <li>
+                <a class="nav-link" id="hover-especial" href="#footer">Contato</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -47,13 +56,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagens/carrossel.jpg" class="d-block w-100 imagem-carrosel-um" alt="...">
+            <img src="assets/img/carrossel.jpg" class="d-block w-100 imagem-carrosel-um" alt="...">
             <div class="carousel-caption d-none d-md-block h-50">
               <h1 class="titulo-fonte display-4">Reaproveite melhor os alimentos!</h1>
             </div>
           </div>
           <picuture class="carousel-item">
-            <img src="imagens/carrossel-img2.jpg" class="d-block w-100 imagem-carrosel-dois" alt="...">
+            <img src="assets/img/carrossel-img2.jpg" class="d-block w-100 imagem-carrosel-dois" alt="...">
             <picuture class="carousel-caption d-none d-md-block h-50">
               <h1 class="titulo-fonte display-4">Economize e ganhe em saúde!</h1>
             </div>
@@ -79,7 +88,7 @@
         <div class="row justify-content-center">
         <!--Início dos cards das receitas-->
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-abacate.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com salada de abacate, vista superior.">
+            <img src="assets/img/receita-abacate.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com salada de abacate, vista superior.">
             <div class="card-body">
               <h5 class="card-title">Tigela de abacate</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
@@ -88,7 +97,7 @@
           </article>
 
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-kiwi.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com mingau de kiwi, vista superior.">
+            <img src="assets/img/receita-kiwi.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com mingau de kiwi, vista superior.">
             <div class="card-body">
               <h5 class="card-title">Salada de kiwi</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
@@ -97,7 +106,7 @@
           </article>
 
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-mix.jpg" class="card-img-top card-posicao-imagem" alt="Prato com mix de vegetais com azeite sendo adicionado por um rapaz, vista superior">
+            <img src="assets/img/receita-mix.jpg" class="card-img-top card-posicao-imagem" alt="Prato com mix de vegetais com azeite sendo adicionado por um rapaz, vista superior">
             <div class="card-body">
               <h5 class="card-title">Mix de Vegetais</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
@@ -106,7 +115,7 @@
           </article>
 
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-pimentoes.jpg" class="card-img-top card-posicao-imagem" alt="Prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+            <img src="assets/img/receita-pimentoes.jpg" class="card-img-top card-posicao-imagem" alt="Prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
             <div class="card-body">
               <h5 class="card-title">Pimentões à Juliana</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
@@ -115,7 +124,7 @@
           </article>
 
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-oriental.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com salada de vegetais estilo oriental, vista de cima">
+            <img src="assets/img/receita-oriental.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com salada de vegetais estilo oriental, vista de cima">
             <div class="card-body">
               <h5 class="card-title">Prato oriental</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
@@ -124,7 +133,7 @@
           </article>
 
           <article class="card borda-especial card-largura col-12 col-md-4 p-0 m-4">
-            <img src="imagens/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com beterrabas e dentes assados em primeiro plano, com ingredientes ao fundo">
+            <img src="assets/img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" alt="Tigela com beterrabas e dentes assados em primeiro plano, com ingredientes ao fundo">
             <div class="card-body">
               <h5 class="card-title">Beterrabas assadas</h5>
               <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
