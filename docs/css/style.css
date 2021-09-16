@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .logo {
-    width: 7rem;
+    width: 5rem;
 }
 
 .titulo-fonte {
     font-family: 'Pacifico', cursive;
 }
-
 
 .imagem-carrosel-um {
     object-fit: cover;
@@ -71,4 +70,10 @@
 :root {
     --primary-color:#8b0000;
     --secondary-color: #fff;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .logo {
+        width: 4rem;
+    }
 }
